@@ -58,6 +58,21 @@ sqr0.addEventListener("click", () => {
     isGameOver = true;
     return;
   }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
+    isGameOver = true;
+    return;
+  }
   if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
@@ -99,6 +114,21 @@ sqr1.addEventListener("click", () => {
       sqr6.textContent === currentPlayer)
   ) {
     message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
     isGameOver = true;
     return;
   }
@@ -146,6 +176,21 @@ sqr2.addEventListener("click", () => {
     isGameOver = true;
     return;
   }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
+    isGameOver = true;
+    return;
+  }
   if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
@@ -187,6 +232,21 @@ sqr3.addEventListener("click", () => {
       sqr6.textContent === currentPlayer)
   ) {
     message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
     isGameOver = true;
     return;
   }
@@ -234,6 +294,21 @@ sqr4.addEventListener("click", () => {
     isGameOver = true;
     return;
   }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
+    isGameOver = true;
+    return;
+  }
   if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
@@ -275,6 +350,21 @@ sqr5.addEventListener("click", () => {
       sqr6.textContent === currentPlayer)
   ) {
     message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
     isGameOver = true;
     return;
   }
@@ -322,6 +412,21 @@ sqr6.addEventListener("click", () => {
     isGameOver = true;
     return;
   }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
+    isGameOver = true;
+    return;
+  }
   if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
@@ -366,6 +471,21 @@ sqr7.addEventListener("click", () => {
     isGameOver = true;
     return;
   }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
+    isGameOver = true;
+    return;
+  }
   if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
@@ -407,6 +527,21 @@ sqr8.addEventListener("click", () => {
       sqr6.textContent === currentPlayer)
   ) {
     message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (
+    sqr0.textContent !== "" &&
+    sqr1.textContent !== "" &&
+    sqr2.textContent !== "" &&
+    sqr3.textContent !== "" &&
+    sqr4.textContent !== "" &&
+    sqr5.textContent !== "" &&
+    sqr6.textContent !== "" &&
+    sqr7.textContent !== "" &&
+    sqr8.textContent !== ""
+  ) {
+    message.textContent = "It's a tie!";
     isGameOver = true;
     return;
   }
