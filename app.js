@@ -26,23 +26,86 @@ sqr0.addEventListener("click", () => {
   // sqr0.textContent = currentPlayer;
   if (sqr0.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr0.textContent = currentPlayer;
+  }
+  sqr0.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr0.textContent = currentPlayer;
+    // sqr1.textContent = currentPlayer;
     currentPlayer = "X";
   }
+  message.textContent = `${currentPlayer}, Turn to play`;
 });
 sqr1.addEventListener("click", () => {
   // sqr1.textContent = currentPlayer;
   if (sqr1.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr1.textContent = currentPlayer;
+  }
+  sqr1.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr1.textContent = currentPlayer;
+    // sqr1.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -51,11 +114,42 @@ sqr2.addEventListener("click", () => {
   // sqr2.textContent = currentPlayer;
   if (sqr2.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr2.textContent = currentPlayer;
+  }
+  sqr2.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr2.textContent = currentPlayer;
+    // sqr2.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -64,11 +158,42 @@ sqr3.addEventListener("click", () => {
   // sqr3.textContent = currentPlayer;
   if (sqr3.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr3.textContent = currentPlayer;
+  }
+  sqr3.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr3.textContent = currentPlayer;
+    // sqr3.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -77,11 +202,42 @@ sqr4.addEventListener("click", () => {
   // sqr4.textContent = currentPlayer;
   if (sqr4.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr4.textContent = currentPlayer;
+  }
+  sqr4.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr4.textContent = currentPlayer;
+    // sqr4.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -90,11 +246,42 @@ sqr5.addEventListener("click", () => {
   // sqr5.textContent = currentPlayer;
   if (sqr5.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr5.textContent = currentPlayer;
+  }
+  sqr5.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr5.textContent = currentPlayer;
+    // sqr5.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -103,11 +290,42 @@ sqr6.addEventListener("click", () => {
   // sqr6.textContent = currentPlayer;
   if (sqr6.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr6.textContent = currentPlayer;
+  }
+  sqr6.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr6.textContent = currentPlayer;
+    // sqr6.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -116,11 +334,42 @@ sqr7.addEventListener("click", () => {
   // sqr7.textContent = currentPlayer;
   if (sqr7.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr7.textContent = currentPlayer;
+  }
+  sqr7.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr7.textContent = currentPlayer;
+    // sqr7.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -129,11 +378,42 @@ sqr8.addEventListener("click", () => {
   // sqr8.textContent = currentPlayer;
   if (sqr8.textContent !== "" || isGameOver === true) {
     return;
-  } else if (currentPlayer === "X") {
-    sqr8.textContent = currentPlayer;
+  }
+  sqr8.textContent = currentPlayer;
+  if (
+    (sqr0.textContent === currentPlayer &&
+      sqr1.textContent === currentPlayer &&
+      sqr2.textContent === currentPlayer) ||
+    (sqr3.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer) ||
+    (sqr6.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr3.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer) ||
+    (sqr1.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr7.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr5.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr0.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr8.textContent === currentPlayer) ||
+    (sqr2.textContent === currentPlayer &&
+      sqr4.textContent === currentPlayer &&
+      sqr6.textContent === currentPlayer)
+  ) {
+    message.textContent = `${currentPlayer} wins!`;
+    isGameOver = true;
+    return;
+  }
+  if (currentPlayer === "X") {
     currentPlayer = "O";
   } else if (currentPlayer === "O") {
-    sqr8.textContent = currentPlayer;
+    // sqr8.textContent = currentPlayer;
     currentPlayer = "X";
   }
   message.textContent = `${currentPlayer}, Turn to play`;
@@ -151,4 +431,5 @@ reset.addEventListener("click", () => {
   sqr8.textContent = "";
   currentPlayer = "X";
   message.textContent = `${currentPlayer}, Turn to play`;
+  isGameOver = false;
 });
